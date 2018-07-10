@@ -4,4 +4,4 @@ install:
   - curl -sLo - http://j.mp/install-travis-docker | sh -xe
 
 script:
-  - ./run 'docker build -t testfile . && docker run testfile'
+  - ./run 'docker build -t testfile1 . && docker run testfile1'
